@@ -28,7 +28,7 @@
     --standard-width: 1144px;
 
     --purple-1: #6962f7;
-    --puple-2: #7000ff;
+    --purple-2: #7000ff;
     --blue-1: #00d4ff;
     --primary-accent: #0a2540;
     --primary-button-hover: #6d7a88;
@@ -136,7 +136,7 @@ p {
     padding: 0 var(--spacing-md) 0 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
 }
 .two-column > .col-right {
@@ -250,3 +250,30 @@ p {
     background: rgba(250, 250, 250, 0.5);
 }
 
+/* Hero-Page Styles */
+main {
+    margin: var(--spacing-xl) 0;
+}
+.button-container {
+    display: flex;
+    margin: var(--spacing-md) 0;
+}
+
+.button-container button:nth-of-type(2) {
+    margin: 0 0 0 var(--spacing-md);
+    color: var(--purple-2);
+}
+
+.hero p {
+    max-width: 480px;
+}
+
+.hero .hero-phone-container {
+    height: 564px;
+    align-items: flex-end;
+}
+
+.hero-phone {
+    height: 628px;
+    transform: translate(32px, -32px);
+}
