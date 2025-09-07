@@ -558,6 +558,8 @@ p {
   position: absolute;
   top: 10%;
 }
+
+
 /* VIRTUAL EVENTS SECTION */
 .virtual-events-section {
   display: flex;
@@ -745,4 +747,21 @@ p {
 .footer h3 {
   font-size: var(--h6-size);
   font-weight: 700;
+}
+
+@media only screen and (max-width: 1144px) {
+  .section-container {
+    padding: 0 var(--spacing-md);
+  }
+}
+
+
+/* Tablet Size */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Mobile Size */
+@media only screen and (max-width: 550px){
+
 }
